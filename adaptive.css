@@ -1,0 +1,139 @@
+@media all and (max-width: 1350px) {
+  .header__left {
+    font-size: 50px;
+  }
+  .content__item {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .header__left {
+    font-size: 45px;
+  }
+  .content__item {
+    font-size: 16px;
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media all and (max-width: 992px) {
+  * {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .header__left {
+    font-size: 40px;
+  }
+  .header__right {
+    font-size: 14px;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .footer__logo {
+    width: 40px;
+    height: 40px;
+  }
+  #inst {
+    width: 37px;
+    height: 37px;
+  }
+  #tg {
+    width: 70px;
+    height: 38px;
+  }
+}
+@media all and (max-width: 850px) {
+  .header__left {
+    font-size: 36px;
+  }
+}
+@media all and (max-width: 768px) {
+  * {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .header__left {
+    font-size: 32px;
+  }
+  .footer__logo {
+    width: 30px;
+    height: 30px;
+  }
+  #inst {
+    width: 31px;
+    height: 31px;
+  }
+  #tg {
+    width: 60px;
+    height: 32px;
+  }
+}
+@media all and (max-width: 576px) {
+  * {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 0;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  .header__left {
+    width: 100%;
+    font-size: 24px;
+  }
+  .header__right {
+    width: 100%;
+  }
+  .content {
+    flex-direction: column-reverse;
+  }
+  #content__left {
+    width: 100%;
+  }
+  #content__right {
+    width: 100%;
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
+  .plus {
+    flex-wrap: wrap;
+  }
+  #plus__left {
+    width: 100%;
+  }
+  #plus__right {
+    width: 100%;
+  }
+  .footer__logo {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+  #inst {
+    width: 31px;
+    height: 31px;
+    padding: 0;
+  }
+  #tg {
+    width: 60px;
+    height: 32px;
+    padding: 0;
+  }
+}
+@media all and (max-width: 320px) {
+  * {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 0;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+}
